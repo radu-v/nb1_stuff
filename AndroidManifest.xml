@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.frameworkres.overlay">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="android.overlay.autobrightness" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <overlay android:isStatic="true" android:priority="1" android:targetPackage="android"/>
 </manifest>
