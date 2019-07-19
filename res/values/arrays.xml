@@ -31,42 +31,4 @@
         <item>1100</item>
         <item>10000</item>
     </integer-array>
-    <integer-array name="config_autoBrightnessLevelsD">
-        <item>7</item>
-        <item>25</item>
-        <item>60</item>
-        <item>160</item>
-        <item>260</item>
-        <item>360</item>
-        <item>460</item>
-        <item>560</item>
-        <item>660</item>
-        <item>760</item>
-        <item>860</item>
-        <item>960</item>
-        <item>5000</item>
-    </integer-array>
-    <integer-array name="config_dynamicHysteresisBrightLevels">
-        <item>100</item>
-    </integer-array>
-    <integer-array name="config_dynamicHysteresisDarkLevels">
-        <item>200</item>
-    </integer-array>
-    <array name="config_dynamicHysteresisLuxLevels" />
-    <integer-array name="config_extremePowerSaveAutoBrightnessLcdBacklightValues">
-        <item>7</item>
-        <item>12</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>24</item>
-        <item>27</item>
-        <item>30</item>
-        <item>33</item>
-        <item>39</item>
-        <item>55</item>
-    </integer-array>
 </resources>
