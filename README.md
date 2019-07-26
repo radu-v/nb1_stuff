@@ -7,4 +7,4 @@ Vendor overlay for adjusting adaptive brightness values in framework-res
 1. `jarsigner -keystore ~/keystores/<keystorefilename> framework-res.overlay.autobrightness.apk.u <keystore alias>`
 1. `zipalign 4 framework-res.overlay.autobrightness.apk.u framework-res.overlay.autobrightness.apk`
 
-then push the resulting `framework-res.overlay.autobrightness.apk` to `/system/vendor/overlay`
+then push the resulting `framework-res.overlay.autobrightness.apk` to `/system/vendor/overlay`, chmod it to 0644 then reboot
