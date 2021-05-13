@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer-array name="config_autoBrightnessLcdBacklightValues">
+		<item>2</item>
+		<item>8</item>
+		<item>20</item>
+		<item>40</item>
+		<item>75</item>
+		<item>135</item>
+		<item>180</item>
+		<item>210</item>
+		<item>230</item>
+		<item>255</item>
+	</integer-array>
+	<integer-array name="config_autoBrightnessLevels">
+		<item>2</item>
+		<item>10</item>
+		<item>50</item>
+		<item>175</item>
+		<item>380</item>
+		<item>780</item>
+		<item>1150</item>
+		<item>1890</item>
+		<item>2465</item>
+	</integer-array>
+</resources>

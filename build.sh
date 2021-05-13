@@ -1,7 +1,7 @@
 #!/bin/sh
 
-aapt package -M AndroidManifest.xml -S res -F framework-res.overlay.power_profile.apk.u -I platforms/android-30/android.jar -o android.overlay.power_profile
+aapt package -M AndroidManifest.xml -S res -F framework-res.overlay.apk.u -I platforms/android-30/android.jar -o com.android.frameworkres.overlay
 
-apksigner sign --ks keystore.jks framework-res.overlay.power_profile.apk.u
+apksigner sign --ks keystore.jks framework-res.overlay.apk.u
 
-zipalign 4 framework-res.overlay.power_profile.apk.u framework-res.overlay.power_profile.apk
+zipalign 4 framework-res.overlay.apk.u framework-res.overlay.apk
