@@ -1,5 +1,5 @@
 # framework-res.overlay.power_profile
-Vendor overlay for adjusting adaptive brightness values in framework-res
+Vendor overlay for patching the power profile using the one in 515K stock ROM.
 
 ## Packaging
 1. `aapt package -M AndroidManifest.xml -S res -F framework-res.overlay.power_profile.apk.u -I ~/Android/Sdk/platforms/android-28/android.jar -o android.overlay.power_profile`
