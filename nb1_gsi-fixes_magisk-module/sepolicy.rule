@@ -19,6 +19,8 @@ allow mediaserver vendor_sys_video_prop file { read }
 allow radio qcom_ims_prop file { read }
 allow radio cnd binder { call }
 allow system_server userspace_reboot_config_prop file { read }
+allow system_server default_android_hwservice hwservice_manager { find }
+allow system_server proc_fih dir { search }
 allow qti_init_shell proc_extra_free_kbytes file { write }
 allow qti_init_shell sysfs_io_sched_tuneable file { write }
 allow qti_init_shell exported_system_radio_prop property_service { set }
@@ -31,7 +33,11 @@ allow sensors proc_fih dir { getattr search }
 allow system_app exported_default_prop property_service { set }
 allow tee persist_file dir { search }
 allow zygote system_file dir { write }
-allow system_server default_android_hwservice hwservice_manager { find }
+allow zygote vendor_app_file file { getattr }
 allow hal_fingerprint_oppo_compat default_android_hwservice hwservice_manager { find }
 allow system_app default_android_hwservice hwservice_manager { find }
 allow migrate_legacy_obb_data { apk_data_file dalvikcache_data_file user_profile_data_file } file { read write }
+allow adbd oemfs dir { search }
+allow fsck overlayfs_file dir { getattr }
+allow hal_power_default sysfs file { read }
+allow hal_power_default tmpfs chr_file { read write }

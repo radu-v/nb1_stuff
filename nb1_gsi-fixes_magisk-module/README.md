@@ -1,10 +1,10 @@
 # Introduction
 
 This module applies some fixes for Nokia 8:
-- audio volume curves for making volume tracker more consistent with output
 - adds a handful of missing SELinux policies
+- patched libraries to fix hw keys and camera
 
 ## What you need
 
-* Magisk v21.1+
-* Custom ROM for Nokia 8
+* Magisk v22+
+* Custom ROM or GSI for Nokia 8
