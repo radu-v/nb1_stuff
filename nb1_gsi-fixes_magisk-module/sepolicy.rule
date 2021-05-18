@@ -31,13 +31,15 @@ allow kernel debugfs_wlan dir { search }
 allow sensors proc file { getattr open read }
 allow sensors proc_fih dir { getattr search }
 allow system_app exported_default_prop property_service { set }
+allow system_app default_android_hwservice hwservice_manager { find }
+allow system_app sysfs_zram dir { search }
+allow system_app proc_vmallocinfo file { read }
 allow tee persist_file dir { search }
 allow zygote system_file dir { write }
 allow zygote vendor_app_file file { getattr }
 allow hal_fingerprint_oppo_compat default_android_hwservice hwservice_manager { find }
-allow system_app default_android_hwservice hwservice_manager { find }
 allow migrate_legacy_obb_data { apk_data_file dalvikcache_data_file user_profile_data_file } file { read write }
 allow adbd oemfs dir { search }
 allow fsck overlayfs_file dir { getattr }
-allow hal_power_default sysfs file { read }
+allow hal_power_default sysfs file { read open }
 allow hal_power_default tmpfs chr_file { read write }
